@@ -49,11 +49,14 @@ body {
   button[type="submit"] {
     background-color: #4CAF50;
     color: white;
-    padding: 10px 20px;
+    padding: 10px 50px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 18px;
   }
   
   button[type="submit"]:hover {
