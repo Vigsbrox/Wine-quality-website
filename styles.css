@@ -21,7 +21,8 @@ body {
   
   label {
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+    margin-top: 15px;
   }
   
   input[type="number"] {
@@ -32,6 +33,7 @@ body {
     border: none;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 5px;
   }
   
   input[type="number"]::-webkit-inner-spin-button {
@@ -47,7 +49,7 @@ body {
   }
   
   button[type="submit"] {
-    background-color: #4CAF50;
+    background-color: #007bff;
     color: white;
     padding: 10px 50px;
     border: none;
@@ -60,13 +62,13 @@ body {
   }
   
   button[type="submit"]:hover {
-    background-color: #3e8e41;
+    background-color: #007bff;
   }
   
   #quality {
     font-size: 24px;
     font-weight: bold;
-    color: #4CAF50;
+    color: #007bff;
     margin-top: 20px;
   }
   
